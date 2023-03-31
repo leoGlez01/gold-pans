@@ -1,0 +1,14 @@
+# Scripts SQL
+*.sql
+*.pgerd
+Master Chef/scripts SQL
+
+# Other
+Master Chef/.vscode
+Master Chef/_pycache_
+
+# Imagenes y recursos
+Master Chef/iconos
+Master Chef/imagenes
+*.png
+*.txt

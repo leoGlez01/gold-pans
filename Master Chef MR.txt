@@ -1,0 +1,21 @@
+organizador(id_organizador pk, nombre_org, apellido_1, apellido_2, fecha_nac, edad_org, is_supervisor)
+
+supervisor(id_oranizador pk, id_organizador1 fk)
+
+registro(codigo_registro pk, cant_chef, cant_patroc, cant_asistentes, plato_popular, ingred_popular)
+
+registro_organizador(id_organizador pk, codigo_registro pk)
+
+chef(id_chef pk, nombre_chef, apellido_1, apellido_2, edad_chef, codigo_registro fk)
+
+patrocinador(id_patrocinador pk, apellido_1, apellido_2, edad_patroc, codigo_registro fk)
+
+asistente(id_asistente pk, nommbre_asist, apellido_1, apellido_2, edad_asist, codigo_registro fk)
+
+menu(codigo_menu pk, cant_platos, id_chef fk, id_producto pk)
+
+receta(codigo_receta pk, nombre, tipo_receta, codigo_menu)
+
+ingrediente(codigo_ingrediente pk, nombre_producto, cant_ing, unidad, codigo_menu, codigo_receta fk)
+
+clasificacion(id_clasificacion pk, nombrechef, apellido1, apellido2, plato_popular, puesto_clasif, codigo_registro fk, id_chef fk)

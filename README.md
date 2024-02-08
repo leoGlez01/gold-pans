@@ -6,4 +6,4 @@ PyQt - UI Library <br/>
 PostgreSQL - DataBase <br/>
 
 ## Preview
-<img src="">
+<img src="uci.png">

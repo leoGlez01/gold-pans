@@ -10,7 +10,7 @@ from conexionA import Comunicacion
 class VentanaPrincipal(QMainWindow):
     def __init__(self):
         super(VentanaPrincipal, self).__init__()
-        loadUi('Master Chef.ui', self)
+        loadUi('Master Chef/Master Chef.ui', self)
 
         self.boton_menu.clicked.connect(self.mover_menu)
         self.database = Comunicacion()

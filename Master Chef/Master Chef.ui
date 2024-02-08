@@ -112,10 +112,10 @@ border-radius:20px;
             </property>
             <property name="styleSheet">
              <string notr="true">
-border-image: url(:/logo/imagenes/logo.jpeg);</string>
+border-image: url(:/logo/imagenes/logo.png);</string>
             </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string/>
             </property>
            </widget>
           </item>

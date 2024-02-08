@@ -3,7 +3,7 @@ import psycopg2
 class Comunicacion():
 
     def __init__(self):    
-        self.conexion = psycopg2.connect("dbname=masterChef user = postgres password = XD")
+        self.conexion = psycopg2.connect("dbname=masterchef user = postgres password = xd")
                                             
 
     def insertar_productos(self, nombre, apeellido1, apellido2, nacimiento, edad, supervisor):
